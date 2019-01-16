@@ -24,11 +24,11 @@
   </dependencies>
   
   <distributionManagement>
-    <snapshotRepository>
+    <repository>
          <id>nexus-release</id>
          <name>Ramana</name>
          <url>http://localhost:8081/repository/Ramana/</url>
-    </snapshotRepository>
+    </repository>
 </distributionManagement>
   <build>
   <pluginManagement>  
