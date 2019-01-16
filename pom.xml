@@ -9,6 +9,14 @@
 
   <name>Ramana</name>
   <url>http://maven.apache.org</url>
+  
+  <distributionManagement>
+    <snapshotRepository>
+         <id>nexus-snapshots</id>
+         <name>Ramana</name>
+         <url>http://localhost:8081/repository/Ramana/</url>
+    </snapshotRepository>
+</distributionManagement>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
