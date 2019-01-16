@@ -30,12 +30,14 @@
          <url>http://localhost:8081/repository/Ramana/</url>
     </snapshotRepository>
 </distributionManagement>
+  <build>
+  <pluginManagement>  
   <plugins>
     <plugin>
-   <groupId>org.sonatype.plugins</groupId>
-   <artifactId>nexus-staging-maven-plugin</artifactId>
-   <version>1.3</version>
-   <executions>
+     <groupId>org.sonatype.plugins</groupId>
+      <artifactId>nexus-staging-maven-plugin</artifactId>
+     <version>1.3</version>
+     <executions>
       <execution>
          <id>default-deploy</id>
          <phase>deploy</phase>
@@ -43,13 +45,14 @@
             <goal>deploy</goal>
          </goals>
       </execution>
-   </executions>
-   <configuration>
+    </executions>
+    <configuration>
       <serverId>nexus-snapshots</serverId>
       <nexusUrl>http://localhost:8081/nexus/</nexusUrl>
       <skipStaging>true</skipStaging>
-   </configuration>
-</plugin>
+    </configuration>
+      </plugin>
       </plugins>
-  
+    </pluginManagement>
+  </build>
 </project>
