@@ -25,7 +25,7 @@
   
   <distributionManagement>
     <snapshotRepository>
-         <id>nexus-snapshots</id>
+         <id>nexus-release</id>
          <name>Ramana</name>
          <url>http://localhost:8081/repository/Ramana/</url>
     </snapshotRepository>
