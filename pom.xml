@@ -2,9 +2,9 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>Ramana</groupId>
-  <artifactId>Ramana</artifactId>
-  <version>Snapshots-1.0</version>
+  <groupId>com.ashok</groupId>
+  <artifactId>cards</artifactId>
+  <version>2.0</version>
   <packaging>jar</packaging>
 
   <name>Ramana</name>
@@ -25,7 +25,7 @@
   
   <distributionManagement>
     <!--
-    <repository>
+    <repositor
          <id>nexus-release</id>
          <name>Ramana</name>
          <url>http://13.232.7.189:8081/repository/Ramana/</url>
