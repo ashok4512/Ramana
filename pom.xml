@@ -29,7 +29,6 @@
          <name>Ramana</name>
          <url>http://13.232.7.189:8081/repository/Ramana/</url>
     </repository>
-   <distributionManagement>
     <repository>
          <id>nexus-snapshots</id>
          <name>Ramana</name>
