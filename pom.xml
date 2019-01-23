@@ -4,7 +4,7 @@
 
   <groupId>Ramana</groupId>
   <artifactId>Ramana</artifactId>
-  <version>1.0</version>
+  <version>Snapshots-1.0</version>
   <packaging>jar</packaging>
 
   <name>Ramana</name>
