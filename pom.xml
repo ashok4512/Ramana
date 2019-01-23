@@ -24,11 +24,13 @@
   </dependencies>
   
   <distributionManagement>
+    <!--
     <repository>
          <id>nexus-release</id>
          <name>Ramana</name>
          <url>http://13.232.7.189:8081/repository/Ramana/</url>
     </repository>
+  -->
     <repository>
          <id>nexus-snapshots</id>
          <name>Ramana</name>
