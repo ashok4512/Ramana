@@ -33,8 +33,8 @@
   -->
     <repository>
          <id>nexus-snapshots</id>
-         <name>Praveen</name>
-         <url>http://13.232.7.189:8081/repository/Praveen/</url>
+         <name>somu</name>
+         <url>http://localhost:8081/repository/somu/</url>
     </repository>
 </distributionManagement>
   <build>
@@ -55,7 +55,7 @@
     </executions>
     <configuration>
       <serverId>nexus-snapshots</serverId>
-      <nexusUrl>http://13.232.7.189:8081/repository/Praveen/</nexusUrl>
+      <nexusUrl>http://localhost:8081/repository/somu/</nexusUrl>
       <skipStaging>true</skipStaging>
     </configuration>
       </plugin>
